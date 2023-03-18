@@ -1,0 +1,33 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.wrapper {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.page-content {
+    margin-left: $sidenav-width;
+}
+
+.site-header {
+    z-index: 10;
+}
+
+.site-footer {
+    z-index: 10;
+}
+
+.site-sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: $sidenav-width; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 5; /* Stay on top */
+    top: 0; /* Stay at the top */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: $spacing-unit * 3
+}
+
+@media screen and (min-width: $on-medium) {
+
+}
