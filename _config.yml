@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: even janken
-description: Soms moet er even gejankt worden
+description: soms moet er even gejankt worden
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://evenjanken.nl" # the base hostname & protocol for your site, e.g. http://example.com
 theme: just-the-docs
@@ -29,8 +29,8 @@ defaults:
       type: "posts"
     values:
       permalink: /:categories/:title
-      author: Thijs Erends
-      layout: default
+      author: thijs
+      layout: jdefault
       pretitle: even janken om
 
 exclude:
@@ -111,7 +111,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "even janken on github":
+  "even janken op github":
     - "https://github.com/matglas2/matglas2.github.io"
 
 # Makes Aux links open in a new tab. Default is false
@@ -119,29 +119,29 @@ aux_links_new_tab: false
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
-nav_sort: case_sensitive # Capital letters sorted before lowercase
+nav_sort: case_insensitive # Capital letters sorted before lowercase
 
 # External navigation links
-nav_external_links:
-  - title: even janken on github
-    url: //github.com/matglas2/matglas2.github.io
+# nav_external_links:
+#   - title: even janken op github
+#     url: //github.com/matglas2/matglas2.github.io
 
 # Footer content
 # appears at the bottom of every page's main content
 
 # Back to top link
 back_to_top: true
-back_to_top_text: "Back to top"
+back_to_top_text: "terug naar boven"
 
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a> <a href=\"https://www.netlify.com/\">This site is powered by Netlify.</a>"
-nav_footer_content: "Take this site with a grain of salt. <br> Powerd by: <a href=\"https://github.com/just-the-docs/just-the-docs\">Just the Docs</a> and Jekyll."
+footer_content: "jij bent lekker uitgejankt, maar ik zit nog steeds met de kosten van de website #evenjanken om geld --> <a href=\"https://paypal.me/ThijsE\">draag bij via paypal</a>"
+nav_footer_content: "take this site with a grain of salt. <br> towerd by: <a href=\"https://github.com/just-the-docs/just-the-docs\">just the docs</a> and jekyll."
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
+gh_edit_link: false # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
@@ -149,7 +149,7 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: dark
+color_scheme: light
 
 callouts_level: quiet # or loud
 callouts:
