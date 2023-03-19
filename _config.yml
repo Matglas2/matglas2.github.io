@@ -150,7 +150,7 @@ back_to_top: true
 back_to_top_text: "terug naar boven"
 
 footer_content: "jij bent lekker uitgejankt, maar ik zit nog steeds met de kosten van de website #evenjanken om geld --> <a href=\"https://paypal.me/ThijsE\">draag bij via paypal</a>"
-nav_footer_content: "take this site with a grain of salt. <br> towerd by: <a href=\"https://github.com/just-the-docs/just-the-docs\">just the docs</a> and jekyll."
+nav_footer_content: "nog meer te janken? mail me op <a href=\"mailto:info@evenjanken.nl\">info@evenjanken.nl</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
