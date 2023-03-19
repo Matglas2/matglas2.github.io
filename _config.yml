@@ -29,8 +29,8 @@ defaults:
       type: "posts"
     values:
       permalink: /:categories/:title
-      author: Thijs Erends
-      layout: default
+      author: thijs
+      layout: jdefault
       pretitle: even janken om
 
 exclude:
