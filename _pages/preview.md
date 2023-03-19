@@ -1,6 +1,6 @@
 ---
-layout: default
 title: markdown kitchen sink
+layout: page
 nav_order: 99
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: welkom bij even janken
-layout: default
+layout: page
 nav_order: 1
 ---
 
