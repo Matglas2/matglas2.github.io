@@ -1,7 +1,7 @@
 ---
 title: welkom bij even janken
 layout: default
-author_profile: true
+nav_order: 1
 ---
 
 Neem het met een korreltje zout
