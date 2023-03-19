@@ -1,6 +1,6 @@
 ---
 title: welkom bij even janken
-layout: home
+layout: default
 author_profile: true
 ---
 

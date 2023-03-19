@@ -20,8 +20,18 @@ url: "https://evenjanken.nl" # the base hostname & protocol for your site, e.g. 
 theme: just-the-docs
 lang: nl
 
-permalink: pretty
+# permalink: pretty
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /:categories/:title
+      author: Thijs Erends
+      layout: default
+      pretitle: even janken om
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
@@ -102,7 +112,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "even janken on github":
-    - "//github.com/matglas2/matglas2.github.io"
+    - "https://github.com/matglas2/matglas2.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -163,6 +173,30 @@ callouts:
 # Note: the main Just the Docs site does *not* use Google Analytics.
 # ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
 # ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
+# Define Jekyll collections
+collections:
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  tests:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    posts:
+      # Give the collection a name
+      name: janken om
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      # nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true
 
 plugins:
   - jekyll-seo-tag
