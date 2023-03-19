@@ -35,9 +35,10 @@ defaults:
     values:
       permalink: /:categories/:title
       author: thijs
-      layout: post
+      layout: heropost
       pretitle: even janken om
       show_chips: true
+      background: "#183385"
   -
     scope:
       path: ""

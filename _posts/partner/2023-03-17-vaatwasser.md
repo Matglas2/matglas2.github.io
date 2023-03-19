@@ -4,6 +4,7 @@ categories: partner
 keywords:
     - vaatwasser
     - inruimen
+background: "#026e57"
 ---
 
 Even janken om een verkeerd ingeruimde vaatwasser

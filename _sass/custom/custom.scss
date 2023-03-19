@@ -13,6 +13,7 @@
 
 .label {
     text-transform: lowercase;
+    @include fs-3;
 }
 
 .site-nav {
@@ -36,3 +37,35 @@
     }
 }
 
+.search-input-bk {
+    @include mq(md) {
+      background-color: $sidebar-color !important;
+    }
+}
+
+.main-header-bk {
+    @include mq(md) {
+      background-color: $sidebar-color;
+    }
+  }
+
+.search-results-bk {
+    @include mq(md) {
+      background-color: $sidebar-color;
+    }
+}
+
+.body-bk {
+    background-color: $sidebar-color;
+}
+
+.hero-wrap {
+    min-height: 70vh;
+    border-radius: $sp-5;
+    margin-left: $sp-5;
+    margin-right: $sp-5;
+}
+
+.hero-wrap .chip-wrap {
+    margin: $sp-5;
+}
