@@ -22,6 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://evenjanken.nl" # the base hostname & protocol for your site, e.g. http://example.com
 theme: just-the-docs
 lang: nl
+logo: "/assets/images/logo_yb.svg"
 
 # permalink: pretty
 
@@ -33,8 +34,18 @@ defaults:
     values:
       permalink: /:categories/:title
       author: thijs
-      layout: jdefault
+      layout: post
       pretitle: even janken om
+      show_chips: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_chips: false
+
+include:
+  - _pages
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
@@ -153,7 +164,7 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: light
+color_scheme: dark
 
 callouts_level: quiet # or loud
 callouts:
@@ -181,14 +192,16 @@ callouts:
 # Define Jekyll collections
 collections:
   # Define a collection named "tests", its documents reside in the "_tests" directory
-  tests:
-    permalink: "/:collection/:path/"
-    output: true
+  # posts:
+  #   permalink: "/:collection/:path/"
+  #   output: true
 
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
-    # Reference the "tests" collection
+    # pages:
+    #   name: algemeen
+    # Reference the "posts" collection
     posts:
       # Give the collection a name
       name: janken om

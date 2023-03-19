@@ -28,11 +28,13 @@ $font-size-10-sm: 48px !default;
 // Colors
 
 $white: #fff !default;
-$grey-dk-000: #959396 !default;
-$grey-dk-100: #5c5962 !default;
-$grey-dk-200: #44434d !default;
-$grey-dk-250: #302d36 !default;
-$grey-dk-300: #27262b !default;
+$grey-dk-000: hsl(280, 1%, 58%) !default;
+$grey-dk-100: hsl(260, 5%, 37%) !default;
+$grey-dk-200: hsl(246, 7%, 28%) !default;
+$grey-dk-250: hsl(260, 9%, 19%) !default;
+$grey-dk-300: hsl(252, 6%, 16%) !default;
+$grey-dk-400: hsl(255, 6%, 9%) !default;
+$grey-dk-500: hsl(255, 6%, 3%) !default;
 $grey-lt-000: #f5f6fa !default;
 $grey-lt-100: #eeebee !default;
 $grey-lt-200: #ecebed !default;
@@ -50,9 +52,10 @@ $green-100: #11b584 !default;
 $green-200: #009c7b !default;
 $green-300: #026e57 !default;
 $yellow-000: #ffeb82 !default;
-$yellow-100: #fadf50 !default;
+$yellow-100: #fde917 !default;
 $yellow-200: #f7d12e !default;
 $yellow-300: #e7af06 !default;
+$yellow-400: #cea016 !default;
 $red-000: #f77e7e !default;
 $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
@@ -88,7 +91,7 @@ $sp-10: map-get($spacers, sp-10) !default; // 4  rem == 64px
 
 // Borders
 
-$border: 1px solid !default;
+$border: 0px solid !default;
 $border-radius: 4px !default;
 $border-color: $grey-lt-100 !default;
 
@@ -102,7 +105,7 @@ $nav-list-item-height: $sp-6 !default;
 $nav-list-item-height-sm: $sp-8 !default;
 $nav-list-expander-right: true;
 $content-width: 1500px !default;
-$header-height: 60px !default;
+$header-height: 80px !default;
 $search-results-width: 800px - $nav-width !default;
 $transition-duration: 400ms;
 

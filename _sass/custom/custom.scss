@@ -14,3 +14,16 @@
 .label {
     text-transform: lowercase;
 }
+
+.site-nav {
+    padding-top: $sp-2;
+}
+
+.nav-category {
+    text-transform: none;
+    @include fs-4;
+}
+
+.site-title {
+    padding-top: $sp-4 ;
+}
