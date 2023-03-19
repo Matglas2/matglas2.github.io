@@ -26,12 +26,13 @@
 
 .site-title {
     padding-top: $sp-4 ;
+    padding-bottom: $sp-4 ;
 }
 
 .site-header {
     @include mq(md) {
-        min-height: 80px;
-        height: 80px;
+        height: $header-height-md;
+        max-height: $header-height-md;
     }
 }
 

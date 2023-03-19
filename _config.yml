@@ -23,6 +23,7 @@ url: "https://evenjanken.nl" # the base hostname & protocol for your site, e.g. 
 theme: just-the-docs
 lang: nl
 logo: "/assets/images/logo_yb.svg"
+favicon_ico: "/assets/images/favicon/favicon.ico"
 
 # permalink: pretty
 
@@ -30,7 +31,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
       permalink: /:categories/:title
       author: thijs
@@ -40,7 +41,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
       show_chips: false
 

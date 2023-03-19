@@ -25,6 +25,19 @@ $font-size-9: 36px !default;
 $font-size-10: 42px !default;
 $font-size-10-sm: 48px !default;
 
+// $font-size-1: 11px !default;
+// $font-size-1-sm: 12px !default;
+// $font-size-2: 14px !default; // h4 - uppercased!, h6 not uppercased, text-small
+// $font-size-3: 16px !default; // h5
+// $font-size-4: 18px !default;
+// $font-size-5: 24px !default; // h3
+// $font-size-6: 32px !default; // h2
+// $font-size-7: 36px !default;
+// $font-size-8: 42px !default; // h1
+// $font-size-9: 48px !default;
+// $font-size-10: 54px !default;
+// $font-size-10-sm: 60px !default;
+
 // Colors
 
 $white: #fff !default;
@@ -77,6 +90,8 @@ $spacers: (
   sp-8: $spacing-unit * 3,
   sp-9: $spacing-unit * 3.5,
   sp-10: $spacing-unit * 4,
+  sp-11: $spacing-unit * 5,
+  sp-12: $spacing-unit * 6,
 ) !default;
 $sp-1: map-get($spacers, sp-1) !default; // 0.25 rem == 4px
 $sp-2: map-get($spacers, sp-2) !default; // 0.5  rem == 8px
@@ -88,6 +103,8 @@ $sp-7: map-get($spacers, sp-7) !default; // 2.5  rem == 40px
 $sp-8: map-get($spacers, sp-8) !default; // 3    rem == 48px
 $sp-9: map-get($spacers, sp-9) !default; // 3.5  rem == 56px
 $sp-10: map-get($spacers, sp-10) !default; // 4  rem == 64px
+$sp-11: map-get($spacers, sp-11) !default; // 5  rem == ??px
+$sp-12: map-get($spacers, sp-12) !default; // 6  rem == ??px
 
 // Borders
 
@@ -105,7 +122,8 @@ $nav-list-item-height: $sp-6 !default;
 $nav-list-item-height-sm: $sp-8 !default;
 $nav-list-expander-right: true;
 $content-width: 1500px !default;
-$header-height: 60px !default;
+$header-height: $sp-10 !default;
+$header-height-md: $sp-12!default;
 $search-results-width: 800px - $nav-width !default;
 $transition-duration: 400ms;
 

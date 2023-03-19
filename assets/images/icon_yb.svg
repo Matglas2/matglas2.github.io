@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="19.171 86.634 75 75" xmlns="http://www.w3.org/2000/svg">
-  <rect style="stroke-width: 4px; fill: rgb(253, 233, 23); paint-order: stroke; stroke: rgb(255, 255, 255);" x="19.171" y="86.634" width="75" height="75" rx="16" ry="16"/>
+  <rect style="stroke-width: 0px; fill: rgb(253, 233, 23); paint-order: stroke; stroke: rgb(255, 255, 255);" x="19.171" y="86.634" width="75" height="75" rx="16" ry="16"/>
   <path d="M 42.612 146.853 C 44.342 147.643 48.952 148.873 53.342 148.873 C 62.842 148.873 68.102 143.833 68.102 132.093 L 68.102 100.053 L 48.232 100.053 L 48.232 109.913 L 56.002 109.913 L 56.002 131.593 C 56.002 135.913 54.132 137.923 51.042 137.923 C 47.942 137.923 45.282 136.913 43.912 136.123 L 42.612 146.853 Z" style="stroke-width: 4px;"/>
 </svg>
