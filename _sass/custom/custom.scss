@@ -1,7 +1,4 @@
 // custom SCSS (or CSS) goes here
-.post-title {
-    margin-bottom: 0;
-}
 
 .chip-wrap {
     transform: translatey(-.5rem);
@@ -68,4 +65,10 @@
 
 .hero-wrap .chip-wrap {
     margin: $sp-5;
+}
+
+h1,
+.text-alpha {
+  @include fs-10;
+  font-weight: 800;
 }
