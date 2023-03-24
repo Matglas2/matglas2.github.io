@@ -5,7 +5,7 @@ keywords:
   - ondergoed
   - los
 background: "#990672"
-author: schom;
+author: schom
 ---
 
 Soms is het elastiek er gewoon klaar mee
