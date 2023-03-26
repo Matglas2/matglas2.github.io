@@ -12,7 +12,12 @@
 }
 
 .chip-wrap {
-    transform: translatey(-.5rem);
+    transform: translatey(-.8rem);
+}
+
+.label,
+.nav-category {
+    @include fs-3;
 }
 
 .text-delta, 
@@ -21,6 +26,21 @@
     text-transform: none;
 }
 
-.site-nav {
-    padding-top: $sp-3;
+.site-nav,
+.side-bar {
+    @include mq(md) {
+        padding-top: $sp-3;
+    }
+}
+
+[data-page-layout="heropost"] {
+    background-color: $grey-dk-500;
+}
+
+[data-page-layout="heropost"] .main-header,
+[data-page-layout="heropost"] .search-input,
+[data-page-layout="heropost"] .search-results {
+    @include mq(md) {
+        background-color: $grey-dk-500;
+    }
 }

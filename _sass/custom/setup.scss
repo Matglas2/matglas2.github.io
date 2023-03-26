@@ -1,4 +1,82 @@
 // custom setup code goes here
+
+$grey-dk-400: hsl(255, 6%, 9%) !default;
+$grey-dk-500: hsl(240, 7%, 3%) !default;
+
+$font-size-11: 48px !default;
+$font-size-12: 54px !default;
+$font-size-12-sm: 60px !default;
+
+@mixin fs-10 {
+     font-size: $font-size-11 !important;
+     line-height: $body-heading-line-height;
+   
+     @include mq(sm) {
+       font-size: $font-size-11 !important;
+     }
+}
+@mixin fs-10-clamp {
+     line-height: $body-heading-line-height;
+     font-size: clamp($font-size-8, 4vw + $spacing-unit, $font-size-11) !important;
+}
+
+@mixin fs-11 {
+     font-size: $font-size-11 !important;
+     line-height: $body-heading-line-height;
+   
+     @include mq(sm) {
+       font-size: $font-size-12 !important;
+     }
+}
+
+@mixin fs-11-clamp {
+     line-height: $body-heading-line-height;
+     font-size: clamp($font-size-9, 4vw + $spacing-unit, $font-size-12) !important;
+}
+
+@mixin fs-12 {
+     font-size: $font-size-12 !important;
+     line-height: $body-heading-line-height;
+   
+     @include mq(sm) {
+       font-size: $font-size-12-sm !important;
+     }
+}
+
+@mixin fs-12-clamp {
+     line-height: $body-heading-line-height;
+     font-size: clamp($font-size-10, 4vw + $spacing-unit, $font-size-12-sm) !important;
+}
+
+
+.fs-10-clamp {
+     @include fs-10-clamp;
+}
+
+.fs-11 {
+     @include fs-11;
+}
+
+.fs-11-clamp {
+     @include fs-11-clamp;
+}
+
+.fs-12 {
+     @include fs-12;
+}
+
+.fs-12-clamp {
+     @include fs-12-clamp;
+}
+
+.fw-800 {
+     font-weight: 800 !important;
+}
+
+.fw-900 {
+     font-weight: 900 !important;
+}
+
 @import "./cards";
 
 /* fonts, obviously */
