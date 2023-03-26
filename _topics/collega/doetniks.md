@@ -9,6 +9,6 @@ background: "#026e57"
 author: georges
 ---
 
-Even janken omdat je collega nooit wat doet
+even janken omdat je collega nooit wat doet
 
-Jij natuurlijk wel
+jij natuurlijk wel

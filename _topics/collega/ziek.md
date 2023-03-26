@@ -9,6 +9,6 @@ background: "#cea016"
 author: georges
 ---
 
-Even janken omdat je collega ziek is
+even janken omdat je collega ziek is
 
-We wensen hem wel beterschap, maar eigenlijk ben geïrriteerd 
+we wensen hem wel beterschap, maar eigenlijk ben geïrriteerd 

@@ -25,6 +25,17 @@ lang: nl
 dateformat: "%b %-d, %Y"
 logo: "/assets/images/logo_yb.svg"
 favicon_ico: "/assets/images/favicon/favicon.ico"
+show_dir_listing: false
+
+collections:
+  topics:
+    permalink: "/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    topics:
+      name: janken om
 
 defaults:
   -
@@ -36,6 +47,21 @@ defaults:
       pretitle: even janken om
       show_chips: true
       background: "#183385"
+  -
+    scope:
+      path: "_topics/collega/*.md"
+    values:
+      parent: /collega
+  -
+    scope:
+      path: "_topics/dev/*.md"
+    values:
+      parent: /dev
+  -
+    scope:
+      path: "_topics/partner/*.md"
+    values:
+      parent: /partner
       
 # permalink: pretty
 
@@ -185,30 +211,6 @@ callouts:
 # Note: the main Just the Docs site does *not* use Google Analytics.
 # ga_tracking: UA-2709176-10,G-5FG1HLH3XQ
 # ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
-
-# Define Jekyll collections
-collections:
-  # Define a collection n5amed "tests", its documents reside in the "_tests" directory
-  topics:
-    permalink: "/:path/"
-    output: true
-
-just_the_docs:
-  # Define which collections are used in just-the-docs
-  collections:
-    # Reference the "posts" collection
-    topics:
-      # Give the collection a name
-      name: janken om
-      # Exclude the collection from the navigation
-      # Supports true or false (default)
-      # nav_exclude: true
-      # Fold the collection in the navigation
-      # Supports true or false (default)
-      # nav_fold: true  # note: this option is new in v0.4
-      # Exclude the collection from the search
-      # Supports true or false (default)
-      # search_exclude: true
 
 plugins:
   - jekyll-seo-tag
