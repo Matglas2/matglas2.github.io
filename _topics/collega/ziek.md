@@ -1,5 +1,6 @@
 ---
 title: /ziek
+date: "2023-03-18"
 categories: collega
 keywords:
     - ziek

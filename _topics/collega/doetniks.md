@@ -1,5 +1,6 @@
 ---
 title: /doetniks
+date: "2023-03-17"
 categories: collega
 keywords:
     - deur

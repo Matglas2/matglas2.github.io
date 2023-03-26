@@ -1,5 +1,6 @@
 ---
 title: /websites
+date: "2023-03-22"
 pretitle: even janken over
 categories: dev
 keywords:

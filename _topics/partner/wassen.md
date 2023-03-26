@@ -1,5 +1,6 @@
 ---
 title: /wassen
+date: "2023-03-17"
 categories: partner
 keywords:
     - wassen

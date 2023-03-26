@@ -1,5 +1,6 @@
 ---
 title: /deur
+date: "2023-03-17"
 pretitle: even janken om de
 categories: partner
 keywords:

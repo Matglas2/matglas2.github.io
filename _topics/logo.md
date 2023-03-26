@@ -1,5 +1,6 @@
 ---
 title: /logo
+date: "2023-03-19"
 pretitle: even janken om het
 keywords:
   - knie

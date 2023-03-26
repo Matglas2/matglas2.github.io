@@ -1,5 +1,6 @@
 ---
 title: /agent-pool
+date: "2023-03-23"
 pretitle: even janken om de
 keywords:
   - agent

@@ -1,5 +1,6 @@
 ---
 title: /losse-onderbroek
+date: "2023-03-24"
 pretitle: even janken om een
 keywords:
   - ondergoed
