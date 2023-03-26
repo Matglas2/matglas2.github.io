@@ -1,0 +1,15 @@
+@import "./color_schemes/dark";
+
+$body-font-family: "Roboto Slab";
+
+$grey-dk-400: hsl(255, 6%, 9%);
+$grey-dk-500: hsl(240, 7%, 3%);
+
+$body-background-color: $grey-dk-400;
+$link-color: $grey-dk-000;
+$sidebar-color: $grey-dk-500;
+$search-background-color: $grey-dk-400;
+$search-result-preview-color: $grey-dk-000;
+$content-width: 1500px;
+$header-height: $sp-10;
+$border: none;

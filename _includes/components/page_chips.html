@@ -1,5 +1,5 @@
 <div class="chip-wrap">
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
     <time class="label label-blue" datetime="{{ page.date | date_to_xmlschema }}">
       {{ page.date | date: date_format }}
     </time>

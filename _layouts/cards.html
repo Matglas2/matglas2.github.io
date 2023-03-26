@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{{ content }}
+
+<div class="cards-wrap">
+    {% for topic in site.topics %}
+        <a href="{{ post.url }}">
+            <div class="card">
+                <div class="card-content">
+                    <h3 class="card-title">{{ topic.title }}</h3>
+                    {% if topic.excerpt %}<h4 class="card-excerpt" itemprop="description">{{ topic.excerpt | markdownify | strip_html | truncate: 160 }}</h4>{% endif %}
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>

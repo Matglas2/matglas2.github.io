@@ -1,6 +1,6 @@
 ---
 title: welkom bij even janken
-layout: page
+layout: cards
 nav_order: 1
 ---
 

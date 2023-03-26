@@ -22,32 +22,26 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://evenjanken.nl" # the base hostname & protocol for your site, e.g. http://example.com
 theme: just-the-docs
 lang: nl
+dateformat: "%b %-d, %Y"
 logo: "/assets/images/logo_yb.svg"
 favicon_ico: "/assets/images/favicon/favicon.ico"
-
-# permalink: pretty
 
 defaults:
   -
     scope:
-      path: ""
-      type: posts
+      type: topics
     values:
-      permalink: /:categories/:title
       author: thijs
       layout: heropost
       pretitle: even janken om
       show_chips: true
       background: "#183385"
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      show_chips: false
+      
+# permalink: pretty
 
 include:
-  - _pages
+  - topics
+  - pages
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
@@ -62,6 +56,7 @@ exclude:
    - vendor/gems/
    - vendor/ruby/
    - assets/fonts/ignore
+
 #  # specific to the theme website:
 #    - bin/
 #    - lib/
@@ -166,7 +161,7 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: dark
+color_scheme: janken
 
 callouts_level: quiet # or loud
 callouts:
@@ -193,18 +188,18 @@ callouts:
 
 # Define Jekyll collections
 collections:
-  # Define a collection named "tests", its documents reside in the "_tests" directory
-  # posts:
-  #   permalink: "/:collection/:path/"
-  #   output: true
+  # Define a collection n5amed "tests", its documents reside in the "_tests" directory
+  topics:
+    permalink: "/:path/"
+    output: true
 
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
-    # pages:
-    #   name: algemeen
+    topics:
+      name: topics
     # Reference the "posts" collection
-    posts:
+    topics:
       # Give the collection a name
       name: janken om
       # Exclude the collection from the navigation

@@ -1,61 +1,5 @@
 // custom SCSS (or CSS) goes here
 
-.chip-wrap {
-    transform: translatey(-.5rem);
-}
-
-.chip-wrap :first-child {
-    margin-left: 0;
-}
-
-.label {
-    text-transform: lowercase;
-    @include fs-3;
-}
-
-.site-nav {
-    padding-top: $sp-2;
-}
-
-.nav-category {
-    text-transform: none;
-    @include fs-4;
-}
-
-.site-title {
-    padding-top: $sp-4 ;
-    padding-bottom: $sp-4 ;
-}
-
-.site-header {
-    @include mq(md) {
-        height: $header-height-md;
-        max-height: $header-height-md;
-    }
-}
-
-.search-input-bk {
-    @include mq(md) {
-      background-color: $sidebar-color !important;
-    }
-}
-
-.main-header-bk {
-    @include mq(md) {
-      background-color: $sidebar-color;
-    }
-  }
-
-.search-results-bk {
-    @include mq(md) {
-      background-color: $sidebar-color;
-    }
-}
-
-.body-bk {
-    background-color: $sidebar-color;
-}
-
 .hero-wrap {
     min-height: 70vh;
     border-radius: $sp-5;
@@ -67,8 +11,16 @@
     margin: $sp-5;
 }
 
-h1,
-.text-alpha {
-  @include fs-9;
-  font-weight: 800;
+.chip-wrap {
+    transform: translatey(-.5rem);
+}
+
+.text-delta, 
+.label,
+.nav-category {
+    text-transform: none;
+}
+
+.site-nav {
+    padding-top: $sp-3;
 }
